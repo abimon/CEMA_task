@@ -7,11 +7,12 @@ This system is aimed at managing authenticated clients with their respective hea
 
 Basic information is needed for authentication with verification of identity.
 
+## Requirements
 
-
-
-
-
+- Composer
+- Laravel
+- MySQL database
+- 
 
 ## Features
 
@@ -25,8 +26,7 @@ Basic information is needed for authentication with verification of identity.
 
 ## Demo
 
-
-
+[Demo Link](https://healthinfo.cem.co.ke)
 
 ## Screenshots
 
@@ -46,25 +46,36 @@ Basic information is needed for authentication with verification of identity.
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/abimon/CEMA_task.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd CEMA_task
 ```
 
-Install dependencies
+Create dotenv file
 
 ```bash
-  npm install
+  cp .env.example .env
+```
+
+Generate the application key
+```bash
+  php artisan key:generate
+```
+
+Set up the database
+
+```bash
+  php artisan migrate
 ```
 
 Start the server
 
 ```bash
-  npm run start
+  php artisan serve
 ```
 
 
