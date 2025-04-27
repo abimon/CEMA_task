@@ -25,7 +25,11 @@ Basic information is needed for authentication with verification of identity.
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://cematask.apektechinc.com/storage/screenshots/1.png)
+
+![App Screenshot](https://cematask.apektechinc.com/storage/screenshots/2.png)
+
+![App Screenshot](https://cematask.apektechinc.com/storage/screenshots/3.png)
 
 
 ## Demo
@@ -67,6 +71,7 @@ Create dotenv file
 Install vendor packages
 
 ```bash
+  composer install
   composer dump-autoload
 
 ```
