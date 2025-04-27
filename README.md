@@ -35,7 +35,8 @@ Basic information is needed for authentication with verification of identity.
 ## Demo
 https://cematask.apektechinc.com
 
-
+## Powerpoint Presentation
+https://cematask.apektechinc.com/storage/presentation.pptx
 
 
 ## Tech Stack
